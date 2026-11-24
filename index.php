@@ -15,7 +15,6 @@ require __DIR__ . '/includes/head.php';
   <?= content_image('/images/photos/living-room.jpg', "The living room at Winter's Nook", 'band-photo', '') ?>
   <div class="shade-over"></div>
   <div class="wrap stack">
-    <p class="hand">Welcome to Winter's Nook</p>
     <h1>A place to come <em>home to</em> in Gosforth</h1>
     <p>A one-bedroom flat for longer stays, a few miles from central Newcastle, with the Metro, buses and a bustling High Street a short walk away.</p>
     <div class="btns"><a class="btn btn--fill" href="/longer-stays">Longer stays</a><a class="btn btn--light" href="<?= e($site['booking_url']) ?>"<?= link_attrs($site['booking_url']) ?>>Enquire</a></div>
