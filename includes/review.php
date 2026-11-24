@@ -9,15 +9,14 @@
  * changing its path.
  */
 $reviews = [
-    // PLACEHOLDER: lorem ipsum until Lauren sends the real guest quotes.
     'home' => [
-        'text'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. <em>Sed do eiusmod tempor</em> incididunt ut labore et dolore magna aliqua.',
-        'name'  => 'Guest name, Month Year',
+        'text'  => 'Very sweet people and <em>a lovely home</em> for a short stay.',
+        'name'  => 'Anvita, September 2026',
         'photo' => '/images/photos/living-room.jpg',
     ],
     'long' => [
-        'text'  => 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. <em>Duis aute irure dolor</em> in reprehenderit in voluptate velit esse.',
-        'name'  => 'Guest name, Month Year',
+        'text'  => 'Thank you so much for the use of Poplar Place&hellip; It has been <em>very cosy and welcoming.</em>',
+        'name'  => 'Sally, October 2026',
         'photo' => '/images/photos/bedroom.jpg',
     ],
 ];
