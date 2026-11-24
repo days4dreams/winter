@@ -1,0 +1,17 @@
+# Mac and system junk
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Server logs
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+
+# Written by the publishing workflow from a repository variable; never committed
+includes/private.php
+
+# Built locally from dev/style-sample/
+dev/style-sample/autumn-house-style.html

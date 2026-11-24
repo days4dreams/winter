@@ -1,0 +1,86 @@
+# Publishes the Winter's Nook website to Krystal whenever main changes.
+#
+# - Every push or merge to main: checks the site, then uploads what changed.
+# - Pull requests are only checked, never uploaded.
+# - To roll back: Actions tab -> "Deploy to Krystal" -> "Run workflow", and
+#   paste the commit ID of the version you want live (see README).
+#
+# Needs these repository secrets (Settings -> Secrets and variables -> Actions):
+#   SFTP_HOST, SFTP_USER, SFTP_PASSWORD, SFTP_KNOWN_HOSTS
+# And these repository variables:
+#   REMOTE_DIR      required: the subdomain's folder, e.g. winter.stayingseason.com
+#   ENQUIRY_EMAIL   where the Enquire form sends messages (kept out of the code)
+#   SFTP_PORT       optional, default 722
+
+name: Deploy to Krystal
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Version to publish: leave as main, or paste an older commit ID to roll back"
+        default: main
+        required: true
+      dry_run:
+        description: "Only list what would change (upload nothing)"
+        type: boolean
+        default: false
+
+# One upload at a time; a newer one waits for the current one to finish.
+concurrency:
+  group: deploy-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check the site
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"   # the same version as the server
+          coverage: none
+      - run: bash dev/check.sh
+
+  deploy:
+    name: Upload to Krystal
+    needs: check
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    env:
+      SFTP_HOST: ${{ secrets.SFTP_HOST }}
+      SFTP_USER: ${{ secrets.SFTP_USER }}
+      SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+      SFTP_KNOWN_HOSTS: ${{ secrets.SFTP_KNOWN_HOSTS }}
+      SFTP_PORT: ${{ vars.SFTP_PORT || '722' }}
+      REMOTE_DIR: ${{ vars.REMOTE_DIR }}   # no default: it must be set on purpose
+      ENQUIRY_EMAIL: ${{ vars.ENQUIRY_EMAIL }}
+      DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+    steps:
+      - name: Stop if the SFTP secrets aren't set up yet
+        if: env.SFTP_HOST == '' || env.SFTP_USER == '' || env.SFTP_PASSWORD == ''
+        run: |
+          echo "::error::The SFTP secrets aren't set up yet, so nothing was uploaded. See README > Publishing."
+          exit 1
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+      - name: Write the private settings file
+        # The enquiry address lives in a repository variable, not in the code,
+        # so it never appears in the public repository.
+        run: |
+          php -r '$e = getenv("ENQUIRY_EMAIL"); if ($e !== "" && !filter_var($e, FILTER_VALIDATE_EMAIL)) { fwrite(STDERR, "ENQUIRY_EMAIL is not a valid address\n"); exit(1); } file_put_contents("includes/private.php", "<?php\n// Written by the publishing workflow. Not in the repository.\nreturn " . var_export(["enquiry_email" => $e], true) . ";\n");'
+          if [ -z "$ENQUIRY_EMAIL" ]; then echo "::warning::ENQUIRY_EMAIL isn't set, so the Enquire form can't send messages yet."; fi
+      - name: Install lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - name: Upload changed files
+        run: bash dev/deploy.sh

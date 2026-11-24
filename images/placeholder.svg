@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <!-- The one generic placeholder used wherever a photo will go. -->
+  <defs>
+    <pattern id="lines" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="22" height="22" fill="#96988B"/>
+      <rect width="1.5" height="22" fill="#A6A89C"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#lines)"/>
+</svg>
