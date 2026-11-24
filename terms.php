@@ -30,7 +30,7 @@ require __DIR__ . '/includes/head.php';
     <p>This gives us time to clean and prepare the flat for the next guests.</p>
 
     <h2>Payment</h2>
-    <p>We take 50% of the total when you book, and the remaining 50% 14 days before you arrive. The full amount, any extras and the cancellation terms are shown when you book. For longer stays, we'll agree a payment schedule with you.</p>
+    <p>We take 50% of the total when you book, and the remaining 50% 21 days before you arrive. The full amount, any extras and the cancellation terms are shown when you book. For longer stays, we'll agree a payment schedule with you.</p>
 
     <h2>Cancellations and changes</h2>
     <ul>

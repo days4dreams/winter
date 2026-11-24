@@ -82,4 +82,4 @@ Regent Centre Metro is about ten minutes' walk, and from there it's around ten m
 
 ### How do payment and cancellation work?
 show on: enquire
-When you book direct, we take 50% when you book and the rest 14 days before you arrive. Cancel more than 21 days before your stay at no cost; after that, we keep the 50% paid at booking. For longer stays, we'll agree a payment schedule with you. Our [terms](/terms) have the full details.
+When you book direct, we take 50% when you book and the rest 21 days before you arrive. Cancel more than 21 days before your stay at no cost; after that, we keep the 50% paid at booking. For longer stays, we'll agree a payment schedule with you. Our [terms](/terms) have the full details.
