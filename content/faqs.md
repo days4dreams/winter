@@ -35,6 +35,10 @@ Yes. Winter's Nook is an upstairs Tyneside flat in a building around 100 years o
 show on: flat, long
 Yes, free Wi-Fi throughout. You'll find the details inside when you arrive.
 
+### Can we bring a pet?
+show on: flat, long
+Sorry, we don't normally allow pets, but [drop us a message](/enquire) and we'll see what we can do.
+
 ### Can we smoke or vape?
 Winter's Nook is non-smoking and non-vaping.
 
@@ -78,4 +82,4 @@ Regent Centre Metro is about ten minutes' walk, and from there it's around ten m
 
 ### How do payment and cancellation work?
 show on: enquire
-When you book direct, we take 30% when you book and the rest before you arrive. Cancel more than 14 days before your stay at no cost; after that, we keep the 30% paid at booking. For longer stays, we'll agree a payment schedule with you. Our [terms](/terms) have the full details.
+When you book direct, we take 50% when you book and the rest 14 days before you arrive. Cancel more than 21 days before your stay at no cost; after that, we keep the 50% paid at booking. For longer stays, we'll agree a payment schedule with you. Our [terms](/terms) have the full details.

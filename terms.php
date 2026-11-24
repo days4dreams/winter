@@ -30,12 +30,12 @@ require __DIR__ . '/includes/head.php';
     <p>This gives us time to clean and prepare the flat for the next guests.</p>
 
     <h2>Payment</h2>
-    <p>We take 30% of the total when you book, and the rest before you arrive. The full amount, any extras and the cancellation terms are shown when you book. For longer stays, we'll agree a payment schedule with you.</p>
+    <p>We take 50% of the total when you book, and the remaining 50% 14 days before you arrive. The full amount, any extras and the cancellation terms are shown when you book. For longer stays, we'll agree a payment schedule with you.</p>
 
     <h2>Cancellations and changes</h2>
     <ul>
-      <li>Cancel more than 14 days before your arrival and there's no charge.</li>
-      <li>Cancel within 14 days of arrival and we keep the 30% paid at booking.</li>
+      <li>Cancel more than 21 days before your arrival and there's no charge.</li>
+      <li>Cancel within 21 days of arrival and we keep the 50% paid at booking.</li>
       <li>Non-refundable rates can't be refunded.</li>
       <li>Changes to dates are at our discretion.</li>
       <li>There are no refunds for leaving early or for unused nights.</li>
@@ -54,6 +54,9 @@ require __DIR__ . '/includes/head.php';
       <li>Please run the bathroom extractor fan when showering, and leave the flat as you found it. Any damage will be charged.</li>
       <li>The locked cupboard in the bedroom is private and not part of the let.</li>
     </ul>
+
+    <h2>Pets</h2>
+    <p>Sorry, we don't normally allow pets. If you'd like to bring one, <a href="/enquire">drop us a message</a> and we'll see what we can do.</p>
 
     <h2>Your belongings</h2>
     <p>Please look after your belongings. We can't be held responsible for loss, theft or damage to guests' property, or for disruption beyond our control. If something isn't right during your stay, please tell us straight away so we can put it right.</p>
