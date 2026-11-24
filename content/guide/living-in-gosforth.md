@@ -12,13 +12,13 @@ Staying for a few weeks or months? Gosforth has almost everything you need withi
 
 ## Shopping
 
-![Gosforth High Street](/images/photos/guide-gosforth.jpg)
+![Shelves of cereal boxes at M&S](/images/photos/guide-gosforth.jpg)
 
 **ASDA** and **M&S** are just off Gosforth High Street, and **Sainsbury's** has a store in Gosforth Central Arcade. The **Spar** on Salters Road is the closest for essentials, with a Post Office and cash machine. For great groceries and brilliant butchers, try the independents on **Ashburton Road**.
 
 ## Keeping *fit*
 
-![A morning run in the park](/images/photos/guide-park.jpg)
+![Runners on a woodland path](/images/photos/guide-park.jpg)
 
 **Gosforth Leisure Centre** has a pool and gym, open to non-members at reasonable rates. There are community tennis courts in **Central Park**, and **parkrun** starts every Saturday on the Town Moor, a short jog away. For longer runs, try a lap of Gosforth Park.
 

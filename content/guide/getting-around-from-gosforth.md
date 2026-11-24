@@ -12,7 +12,7 @@ You'll often find that walking or public transport is just as quick as driving f
 
 ## The *Metro*
 
-![A Metro train at Regent Centre](/images/photos/guide-metro.jpg)
+![The Metro sign at Regent Centre at dusk](/images/photos/guide-metro.jpg)
 
 Regent Centre Metro station is about ten minutes' walk from the front door, and from there it's around ten minutes to central Newcastle. Every Metro line can be reached from here, and the coast at Tynemouth is about 25 minutes away.
 

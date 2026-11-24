@@ -12,7 +12,7 @@ There's a good range of places to eat and drink, day or night, within minutes of
 
 ## On your *doorstep*
 
-![Coffee in a Gosforth café](/images/photos/guide-food.jpg)
+![Sandwiches wrapped in brown paper](/images/photos/guide-food.jpg)
 
 **Adriano's Deli** for an Italian-inspired salad or sandwich.
 
