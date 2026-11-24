@@ -1,0 +1,62 @@
+# Winter's Nook: web server rules (Apache, Krystal cPanel hosting)
+# router.php copies these rules for local previews, so update both together.
+
+# The homepage is index.php.
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Always use the secure https:// address. (The second line stops a loop if
+# the host ever puts a proxy in front that handles https itself.)
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,NE]
+
+# Hidden files (e.g. the upload record .deploy-manifest) are never served.
+# .well-known is allowed: it's used for security certificates.
+RewriteRule (^|/)\.(?!well-known/) - [R=404,L]
+
+# Keep private folders private (settings, content files, developer files).
+RewriteRule ^(includes|content|dev)(/|$) - [R=404,L]
+
+# The 404 page (it sends a real "not found" status).
+ErrorDocument 404 /404.php
+
+# Google Search Console's verification file is served as it is (no redirect).
+RewriteRule ^google[0-9a-f]+\.html$ - [L]
+
+# Old-style addresses (/faqs.php, /index.php) redirect to the clean address
+# (/faqs, /). THE_REQUEST is what the visitor typed, so this doesn't loop
+# with the internal rewrite further down.
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{THE_REQUEST} \s/+index\.(html|php)[\s?]
+RewriteRule ^ / [R=301,L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{THE_REQUEST} \s/+([^\s?]+?)\.(html|php)[\s?]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# The sitemap is built automatically by sitemap.php.
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# Guide posts are built by the-guide.php from content/guide/, e.g. /the-guide/slow-weekend
+RewriteRule ^the-guide/([a-z0-9-]+)/?$ the-guide.php?post=$1 [L,QSA]
+
+# Clean addresses: /faqs loads faqs.php. Only applies when that .php file exists.
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# Small security and speed settings (skipped if the server lacks the module).
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
