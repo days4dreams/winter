@@ -17,7 +17,7 @@ $site = [
 
     // false while the site still has placeholder text: Google is asked not
     // to list it. Change to true on launch day.
-    'launched' => false,
+    'launched' => true,
 
     // Where the "Book now" buttons go: Enquire for now, as Winter's Nook is
     // booked by arrangement. Change to an Amenitiz booking page if one is set up.
