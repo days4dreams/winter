@@ -2,9 +2,15 @@
 /**
  * The row of six photos above the footer, with a button to Instagram.
  * Change the list below: [photo, description of the photo].
- * Empty paths show the placeholder until real photos are added.
  */
-$instagramPhotos = array_fill(0, 6, ['', '']);
+$instagramPhotos = [
+    ['/images/photos/slide-nhs.jpg', 'Flowers on the kitchen windowsill'],
+    ['/images/photos/cushions.jpg', 'Cushions on the sofa'],
+    ['/images/photos/gosforth.jpg', "The front door at Winter's Nook"],
+    ['/images/photos/armchair.jpg', 'The armchair and reading lamp'],
+    ['/images/photos/guide-green.jpg', 'Pink flowers by the front step'],
+    ['/images/photos/street.jpg', 'The quiet, car-free path to the front door'],
+];
 ?>
 <section class="instagram band torn" aria-label="Instagram">
   <div class="wrap">
