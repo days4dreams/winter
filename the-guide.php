@@ -102,7 +102,7 @@ require __DIR__ . '/includes/head.php';
 ?>
 
 <section class="hero hero--short hero--centre">
-  <?= content_image('/images/photos/gosforth.jpg', 'Gosforth High Street', 'band-photo', '') ?>
+  <?= content_image('/images/photos/gosforth.jpg', "The front door at Winter's Nook", 'band-photo', '') ?>
   <div class="shade-over"></div>
   <div class="wrap stack centre">
     <h1>The Winter's Nook <em>Guide</em></h1>

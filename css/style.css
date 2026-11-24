@@ -167,7 +167,7 @@ p { margin: 0; }
 .footer-links a:hover, .footer-links a[aria-current] { text-decoration: underline; }
 .footer-centre { display: grid; gap: 1.2rem; justify-items: center; max-width: 22rem; }
 .footer-centre p { font-size: 1rem; }
-.monogram { width: 92px; height: auto; fill: currentColor; }
+.monogram { width: 110px; height: auto; fill: currentColor; }
 .footer-mark { line-height: 0; }
 .footer-base { margin-top: 3.2rem; padding-top: 1.4rem; border-top: 1px solid rgba(235, 228, 212, .3); font: 400 .8rem var(--sans);
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: .6rem 1.5rem; }

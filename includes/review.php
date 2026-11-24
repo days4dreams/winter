@@ -9,12 +9,17 @@
  * changing its path.
  */
 $reviews = [
-    // Add real guest reviews here, e.g.:
-    // 'home' => [
-    //     'text'  => 'Words to stress go in <em>…</em>.',
-    //     'name'  => 'First name, Month Year',
-    //     'photo' => '/images/photos/your-photo.jpg',
-    // ],
+    // PLACEHOLDER: lorem ipsum until Lauren sends the real guest quotes.
+    'home' => [
+        'text'  => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. <em>Sed do eiusmod tempor</em> incididunt ut labore et dolore magna aliqua.',
+        'name'  => 'Guest name, Month Year',
+        'photo' => '/images/photos/living-room.jpg',
+    ],
+    'long' => [
+        'text'  => 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. <em>Duis aute irure dolor</em> in reprehenderit in voluptate velit esse.',
+        'name'  => 'Guest name, Month Year',
+        'photo' => '/images/photos/bedroom.jpg',
+    ],
 ];
 $shown = $reviews[$review ?? 'home'] ?? reset($reviews);
 if (!$shown) {

@@ -68,7 +68,7 @@ $site = [
 
     // Shown on Google and when a page is shared, unless a page sets its own.
     'description'   => "Winter's Nook is a one-bedroom upstairs flat in Gosforth, Newcastle, for longer stays: a home to come back to while you work or study away.",
-    'default_image' => '/images/placeholder.svg',
+    'default_image' => '/images/photos/collage.jpg',
 ];
 
 /** The main menu, in order. Also used for the "Explore" list in the footer. */

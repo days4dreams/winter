@@ -13,7 +13,7 @@ require __DIR__ . '/includes/head.php';
 ?>
 
 <section class="hero hero--short hero--centre">
-  <?= content_image('/images/photos/street.jpg', 'The quiet mews street outside', 'band-photo', '') ?>
+  <?= content_image('/images/photos/street.jpg', 'The quiet, car-free path to the front door', 'band-photo', '') ?>
   <div class="shade-over"></div>
   <div class="wrap stack centre">
     <p class="label">Weeks or months, not nights</p>
@@ -33,7 +33,7 @@ require __DIR__ . '/includes/head.php';
       </div>
     </div>
     <div class="media">
-      <div class="card-torn tilt-r"><div><?= content_image('/images/photos/wardrobes.jpg', 'The built-in wardrobes', '', '4/5') ?><span class="hand">Unpack &amp; settle in</span></div></div>
+      <div class="card-torn tilt-r"><div><?= content_image('/images/photos/armchair.jpg', 'The armchair and reading lamp', '', '4/5') ?><span class="hand">Unpack &amp; settle in</span></div></div>
     </div>
   </div>
 </section>
@@ -51,7 +51,7 @@ require __DIR__ . '/includes/head.php';
 
 <section class="band" style="--band: var(--primary-light)">
   <div class="wrap overlap">
-    <div class="card-torn tilt-l"><div><?= content_image('/images/photos/gosforth.jpg', 'Gosforth High Street', '', '4/5') ?><span class="hand">Gosforth life</span></div></div>
+    <div class="card-torn tilt-l"><div><?= content_image('/images/photos/gosforth.jpg', "The front door at Winter's Nook", '', '4/5') ?><span class="hand">Gosforth life</span></div></div>
     <div class="stack">
       <p class="label">The neighbourhood</p>
       <h2>A few miles from central Newcastle, next to <em>a busy transport hub</em> and a bustling High Street.</h2>

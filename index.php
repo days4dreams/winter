@@ -58,7 +58,7 @@ require __DIR__ . '/includes/head.php';
         <div class="card-body"><h3>Longer Stays</h3><p>For NHS staff, contractors, students and anyone between homes. Ask about monthly rates.</p><a class="btn" href="/longer-stays">Longer stays</a></div>
       </article>
       <article class="card">
-        <?= content_image('/images/photos/gosforth.jpg', 'Gosforth High Street', '', '4/3') ?>
+        <?= content_image('/images/photos/gosforth.jpg', "The front door at Winter's Nook", '', '4/3') ?>
         <div class="card-body"><h3>The Guide</h3><p>Our favourite places to eat, shop, swim and stroll in and around Gosforth.</p><a class="btn" href="/the-guide">Read the guide</a></div>
       </article>
     </div>
@@ -66,7 +66,7 @@ require __DIR__ . '/includes/head.php';
 </section>
 
 <section class="band torn-photo statement">
-  <?= content_image('/images/photos/street.jpg', 'The quiet mews street outside', 'band-photo', '') ?>
+  <?= content_image('/images/photos/street.jpg', 'The quiet, car-free path to the front door', 'band-photo', '') ?>
   <div class="shade-over"></div>
   <div class="wrap">
     <h2>Long days away, and somewhere <em>calm to come back to.</em></h2>
@@ -93,10 +93,10 @@ require __DIR__ . '/includes/head.php';
 <?php
 // The numbered slides: [title, text, button text, link, photo, photo description]
 $slides = [
-    ['NHS & healthcare staff', 'A calm, comfortable base close to the city, with easy Metro and bus links.', 'Longer stays', '/longer-stays', '/images/photos/slide-nhs.jpg', 'A quiet morning at the flat'],
-    ['Contractors', 'Weekly or monthly stays, with permit parking and a washing machine.', 'Longer stays', '/longer-stays', '/images/photos/slide-contractors.jpg', 'The kitchen ready for the week'],
-    ['Students & researchers', 'About ten minutes on the Metro to central Newcastle.', 'Ask a question', '/enquire', '/images/photos/slide-students.jpg', 'Books on the shelf'],
-    ['Between homes', 'Somewhere comfortable while you move, renovate or wait for completion.', 'Enquire', '/enquire', '/images/photos/slide-moving.jpg', 'The living room'],
+    ['NHS & healthcare staff', 'A calm, comfortable base close to the city, with easy Metro and bus links.', 'Longer stays', '/longer-stays', '/images/photos/slide-nhs.jpg', 'Flowers on the kitchen windowsill'],
+    ['Contractors', 'Weekly or monthly stays, with permit parking and a washing machine.', 'Longer stays', '/longer-stays', '/images/photos/slide-contractors.jpg', 'The kitchen sink and worktop'],
+    ['Students & researchers', 'About ten minutes on the Metro to central Newcastle.', 'Ask a question', '/enquire', '/images/photos/slide-students.jpg', 'The sofa in the living room'],
+    ['Between homes', 'Somewhere comfortable while you move, renovate or wait for completion.', 'Enquire', '/enquire', '/images/photos/slide-moving.jpg', 'Looking through the kitchen to the dining table'],
 ];
 foreach ($slides as $i => [$slideTitle, $slideText, $slideButton, $slideLink, $slidePhoto, $slideAlt]):
 ?>
