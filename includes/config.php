@@ -61,9 +61,9 @@ $site = [
     // Leave 'text' empty ('') to switch it off. 'link' is optional;
     // 'link_words' are the words in 'text' that become the link.
     'announcement' => [
-        'text'       => 'Staying a month or more? Ask about our long-stay rates',
-        'link'       => '/enquire',
-        'link_words' => 'Ask about our long-stay rates',
+        'text'       => 'Staying a week or more? See long-stay rates',
+        'link'       => '/longer-stays#pricing',
+        'link_words' => 'See long-stay rates',
     ],
 
     // Shown on Google and when a page is shared, unless a page sets its own.

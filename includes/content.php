@@ -284,16 +284,24 @@ function faq_item($q)
  * The questions marked "show on: $page" in content/faqs.md, for use on any page:
  *     <?= faq_list('long') ?>
  * Prints nothing if no questions are marked for that page.
+ * $first: question ids to move to the top, e.g. ['faq-how-much-does-it-cost']
+ * (a question's id is "faq-" plus its words in lower case, joined by hyphens).
  */
-function faq_list($page)
+function faq_list($page, $first = [])
 {
-    $html = '';
+    $top = array_fill_keys($first, '');
+    $rest = '';
     foreach (faqs() as $group) {
         foreach ($group['questions'] as $q) {
             if (in_array(strtolower($page), $q['show_on'], true)) {
-                $html .= faq_item($q);
+                if (array_key_exists($q['id'], $top)) {
+                    $top[$q['id']] = faq_item($q);
+                } else {
+                    $rest .= faq_item($q);
+                }
             }
         }
     }
+    $html = implode('', $top) . $rest;
     return $html === '' ? '' : '<div class="faq">' . $html . '</div>';
 }

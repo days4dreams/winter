@@ -24,13 +24,13 @@ require __DIR__ . '/includes/head.php';
 
     <h2>Check-in and check-out</h2>
     <ul>
-      <li>Check-in is from 14:00.</li>
-      <li>Check-out is by 11:00.</li>
+      <li>Booking direct with us: check-in from 06:00, check-out by 18:00.</li>
+      <li>Booking through Airbnb or Booking.com: check-in from 14:00, check-out by 11:00.</li>
     </ul>
-    <p>This gives us time to clean and prepare the flat for the next guests.</p>
+    <p>We make sure there are no same-day turnarounds at Winter's Nook, which gives us time to clean and prepare the flat between guests.</p>
 
     <h2>Payment</h2>
-    <p>We take 50% of the total when you book, and the remaining 50% 21 days before you arrive. The full amount, any extras and the cancellation terms are shown when you book. For longer stays, we'll agree a payment schedule with you.</p>
+    <p>We take 50% of the total when you book, and the remaining 50% 21 days before you arrive. The full amount, any extras and the cancellation terms are shown when you book. When you book with our Book now link you can pay by card. If you'd prefer an invoice, we're happy to issue one: just ask through our <a href="/enquire">enquiry form</a>. For longer stays, we'll agree a payment schedule with you.</p>
 
     <h2>Cancellations and changes</h2>
     <ul>

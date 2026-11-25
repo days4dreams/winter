@@ -122,6 +122,7 @@ function field_error($errors, $key)
       <p class="label" style="margin-top: 1rem">Helpful links</p>
       <ul class="helpful-links">
         <li><a href="<?= e($site['booking_url']) ?>"<?= link_attrs($site['booking_url']) ?>>Book your stay</a></li>
+        <li><a href="#faq-how-much-does-it-cost">Pricing</a></li>
         <li><a href="/faqs">Read the FAQs</a></li>
         <li><a href="/the-guide">Explore the guide</a></li>
       </ul>
@@ -189,7 +190,7 @@ function field_error($errors, $key)
   </div>
 </section>
 
-<?php $enquireFaqs = faq_list('enquire'); if ($enquireFaqs !== ''): ?>
+<?php $enquireFaqs = faq_list('enquire', ['faq-how-much-does-it-cost']); if ($enquireFaqs !== ''): ?>
 <section class="band torn torn--flip" style="--band: var(--primary-light)">
   <div class="wrap split" style="align-items: start">
     <div class="stack">
