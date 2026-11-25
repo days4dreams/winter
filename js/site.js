@@ -56,6 +56,19 @@
     });
   }
 
+  // A link to a question (e.g. #faq-how-much-does-it-cost) opens its answer.
+  function openFaqFromHash() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    var target = id && document.getElementById(id);
+    if (target && target.tagName === 'DETAILS') {
+      target.open = true;
+      target.classList.remove('reveal');
+      target.classList.add('is-visible');
+    }
+  }
+  openFaqFromHash();
+  window.addEventListener('hashchange', openFaqFromHash);
+
   // Phone menu: close with Escape, or when tapping anywhere else.
   var menu = document.querySelector('.menu-toggle');
   if (menu) {

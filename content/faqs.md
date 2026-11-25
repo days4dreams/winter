@@ -17,7 +17,7 @@
 
 ### What time is check-in and check-out?
 show on: home, enquire
-We make sure there are no same-day turnarounds at Winter's Nook, so when you [book direct](/enquire) you can check in from 06:00 and check out as late as 18:00, which is handy around shifts and travel. Booked through Airbnb or Booking.com, check-in is from 14:00 and check-out is by 11:00.
+We make sure there are no same-day turnarounds at Winter's Nook, so when you [book direct](/enquire) you can check in from 06:00 and check out as late as 18:00, enjoying many more hours of use than when booking through Airbnb or Booking.com.
 
 ### How do we get in?
 show on: home
@@ -29,7 +29,7 @@ The flat is on a pretty, pedestrian-only street, so there are no cars outside. W
 
 ### Are there stairs?
 show on: flat, long
-Yes. Winter's Nook is an upstairs Tyneside flat in a building around 100 years old, so the stairs are steep and doorways can be narrow. It may not suit anyone who finds stairs difficult.
+Yes. Winter's Nook is an upstairs Tyneside flat in a building around 100 years old, so it may not suit anyone who finds stairs difficult.
 
 ### Is there Wi-Fi?
 show on: flat, long
@@ -66,20 +66,6 @@ Yes. The bedroom has a generous run of built-in wardrobes, so there's plenty of 
 
 ## Longer stays
 
-### How much does it cost?
-show on: home, enquire
-It's always cheaper to book direct: save around 15% compared with using a platform. 3-night short breaks start from £275.
-
-- Stay 5 nights or more and save 15% (weekly stays from £545)
-- Stay 21 nights or more and save 25% (three-week stays from £1,445, 30-night stays from £2,000)
-- Longer than that? [Get in touch](/enquire) and we'll agree a rate.
-
-There's more on our [Longer Stays page](/longer-stays#pricing).
-
-### Is there a minimum stay?
-show on: long, enquire
-Yes, 3 nights. Stays can start and end on any day of the week.
-
 ### Who usually stays?
 show on: long
 NHS and healthcare staff, contractors, students and researchers, and people between homes: anyone who needs somewhere comfortable to come back to while they work or study away.
@@ -88,7 +74,19 @@ NHS and healthcare staff, contractors, students and researchers, and people betw
 show on: home, long
 Regent Centre Metro is about ten minutes' walk, and from there it's around ten minutes to the city centre. Over 20 bus routes stop within ten minutes' walk, too.
 
-## Booking
+## Pricing and booking
+
+### How much does it cost?
+show on: home, long, enquire
+3-night short breaks from £275.
+
+- Stay 5 nights or more and save 15% (weekly stays from £545)
+- Stay 21 nights or more and save 25% (three-week stays from £1,445, 30-night stays from £2,000)
+- Longer than that? [Get in touch](/enquire) and we'll agree a rate.
+
+### Is there a minimum stay?
+show on: long, enquire
+Yes, 3 nights. Stays can start and end on any day of the week.
 
 ### How do payment and cancellation work?
 show on: enquire
