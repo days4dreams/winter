@@ -17,7 +17,7 @@
 
 ### What time is check-in and check-out?
 show on: home, enquire
-Check-in is from 14:00 and check-out is by 11:00.
+We make sure there are no same-day turnarounds at Winter's Nook, so when you [book direct](/enquire) you can check in from 06:00 and check out as late as 18:00, which is handy around shifts and travel. Booked through Airbnb or Booking.com, check-in is from 14:00 and check-out is by 11:00.
 
 ### How do we get in?
 show on: home
@@ -68,7 +68,7 @@ Yes. The bedroom has a generous run of built-in wardrobes, so there's plenty of 
 
 ### Do you offer discounts for longer stays?
 show on: home, long, enquire
-Yes. Stays of two weeks or more are 10% off, and monthly stays are 15% off. [Tell us your dates](/enquire) and we'll come back with our best rate.
+Yes. Stays of two weeks or more are 10% off, and monthly stays are 15% off. [Tell us your dates](/enquire) and we'll come back with our best rate. Booking direct is also around 15% cheaper than using a platform such as Airbnb or Booking.com.
 
 ### Who usually stays?
 show on: long
@@ -82,4 +82,4 @@ Regent Centre Metro is about ten minutes' walk, and from there it's around ten m
 
 ### How do payment and cancellation work?
 show on: enquire
-When you book direct, we take 50% when you book and the rest 21 days before you arrive. Cancel more than 21 days before your stay at no cost; after that, we keep the 50% paid at booking. For longer stays, we'll agree a payment schedule with you. Our [terms](/terms) have the full details.
+When you book direct, we take 50% when you book and the rest 21 days before you arrive. Cancel more than 21 days before your stay at no cost; after that, we keep the 50% paid at booking. When you book with our Book now link you can pay by card. Prefer an invoice? We're happy to issue one: just ask through our [enquiry form](/enquire). For longer stays, we'll agree a payment schedule with you. Our [terms](/terms) have the full details.
