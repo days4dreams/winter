@@ -59,7 +59,7 @@ require __DIR__ . '/includes/head.php';
       <p>Placing a new starter, a locum, a visiting researcher or a client between homes? Winter's Nook is a quiet, fully furnished one-bedroom flat in Gosforth, 10 minutes by Metro from central Newcastle (about 20 minutes door to door).</p>
       <p>Moving home and need somewhere to stay before you get the keys? We'd love to host you at Winter's Nook.</p>
       <ul>
-        <li><strong>Transparent pricing:</strong> 3-night short breaks from £275. Stay 5 nights or more and save 15% (weekly stays from £545). Stay 21 nights or more and save 25% (three-week stays from £1,445, 30-night stays from £2,000). Longer than that? <a href="/enquire">Get in touch</a> and we'll agree a rate.</li>
+        <li><strong>Transparent pricing:</strong> 3-night short breaks from £275. Stay 5 nights or more and save 15% (weekly stays from £545). Stay 21 nights or more and save 25% (three-week stays from £1,445, monthly stays from £1,900). Longer than that? <a href="/enquire">Get in touch</a> and we'll agree a rate.</li>
         <li><strong>All bills covered:</strong> energy, water, council tax and Wi-Fi are all included, plus the essentials you'd expect, from tea and coffee to toilet roll and washing-up liquid.</li>
         <li><strong>Flexible dates:</strong> a minimum of 3 nights, starting and ending on any day. There are no same-day turnarounds, so when booking direct, guests can check in from 6am and stay until 6pm on their last day.</li>
         <li><strong>Simple payment:</strong> book online by debit or credit card with a 50% deposit, and pay the balance 21 days before arrival. Prefer to pay by invoice or bank transfer? <a href="/enquire">Send us an enquiry</a> and we'll issue the invoice or bank details.</li>

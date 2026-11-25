@@ -81,7 +81,7 @@ show on: home, long, enquire
 3-night short breaks from £275.
 
 - Stay 5 nights or more and save 15% (weekly stays from £545)
-- Stay 21 nights or more and save 25% (three-week stays from £1,445, 30-night stays from £2,000)
+- Stay 21 nights or more and save 25% (three-week stays from £1,445, monthly stays from £1,900)
 - Longer than that? [Get in touch](/enquire) and we'll agree a rate.
 
 ### Is there a minimum stay?
