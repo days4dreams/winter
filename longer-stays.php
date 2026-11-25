@@ -61,8 +61,8 @@ require __DIR__ . '/includes/head.php';
         <li><strong>All bills covered:</strong> energy, water, council tax and Wi-Fi are all included, plus the essentials you'd expect, from tea and coffee to toilet roll and washing-up liquid.</li>
         <li><strong>Flexible dates:</strong> a minimum of 3 nights, starting and ending on any day. There are no same-day turnarounds, so when booking direct, guests can check in from 6am and stay until 6pm on their last day.</li>
         <li><strong>Simple payment:</strong> book online by debit or credit card with a 50% deposit, and pay the balance 21 days before arrival. Prefer to pay by invoice or bank transfer? <a href="/enquire">Send us an enquiry</a> and we'll issue the invoice or bank details.</li>
-        <li><strong>Cleaning and linen:</strong> we're happy to leave guests in peace, as they would be at home. For stays of over a week, we can arrange a mid-stay clean at a time that suits them. We'll sort that out after booking.</li>
-        <li><strong>Anything else you need:</strong> if you need any details from us, like certificates or documentation, <a href="/enquire">get in touch</a> and we'll send them over.</li>
+        <li><strong>Cleaning and linen:</strong> we're happy to leave guests in peace. However, for stays of over a week, we can arrange a mid-stay clean. We'll sort that out after booking.</li>
+        <li><strong>Anything else:</strong> if you need details like certificates or documentation, <a href="/enquire">get in touch</a> and we'll share.</li>
       </ul>
       <div class="btns"><a class="btn btn--fill" href="/enquire">Enquire</a><a class="btn" href="#pricing">See prices</a></div>
     </div>
