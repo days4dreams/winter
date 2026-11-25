@@ -16,7 +16,7 @@ require __DIR__ . '/includes/head.php';
   <?= content_image('/images/photos/street.jpg', 'The quiet, car-free path to the front door', 'band-photo', '') ?>
   <div class="shade-over"></div>
   <div class="wrap stack centre">
-    <p class="label">Weeks or months, not nights</p>
+    <p class="label">A long weekend, week away, or month from home.</p>
     <h1>Longer stays, <em>made easy</em></h1>
   </div>
 </section>
