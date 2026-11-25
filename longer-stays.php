@@ -29,7 +29,7 @@ require __DIR__ . '/includes/head.php';
       <p>It's set up for everyday life, not just a weekend: a proper kitchen, a washing machine, Wi-Fi, a king-size bed and wardrobes you can actually unpack into. Longer stays are discounted, so the longer you stay, the more you save.</p>
       <div class="btns">
         <a class="btn btn--fill" href="/enquire">Ask about your dates</a>
-        <a class="btn" href="/the-flat">See the flat</a>
+        <a class="btn" href="#pricing">See prices</a>
       </div>
     </div>
     <div class="media">
@@ -49,7 +49,47 @@ require __DIR__ . '/includes/head.php';
   </div>
 </section>
 
-<section class="band" style="--band: var(--primary-light)">
+<?php /* Linked to as /longer-stays#employers from the homepage and elsewhere. */ ?>
+<section class="band torn" id="employers" style="--band: var(--primary-light)">
+  <div class="wrap split">
+    <div class="stack prose">
+      <p class="label">For employers, agencies and home movers</p>
+      <h2>Somewhere calm for your <em>staff, students and clients</em></h2>
+      <p>Placing a new starter, a locum, a visiting researcher or a client between homes? Winter's Nook is a quiet, fully furnished one-bedroom flat in Gosforth, 10 minutes by Metro from central Newcastle (about 20 minutes door to door).</p>
+      <p>Moving home and need somewhere to stay before you get the keys? We'd love to host you at Winter's Nook.</p>
+      <ul>
+        <li><strong>All bills covered:</strong> energy, water, council tax and Wi-Fi are all included, plus the essentials you'd expect, from tea and coffee to toilet roll and washing-up liquid.</li>
+        <li><strong>Flexible dates:</strong> a minimum of 3 nights, starting and ending on any day. There are no same-day turnarounds, so when booking direct, guests can check in from 6am and stay until 6pm on their last day.</li>
+        <li><strong>Simple payment:</strong> book online by debit or credit card with a 50% deposit, and pay the balance 21 days before arrival. Prefer to pay by invoice or bank transfer? <a href="/enquire">Send us an enquiry</a> and we'll issue the invoice or bank details.</li>
+        <li><strong>Cleaning and linen:</strong> we're happy to leave guests in peace, as they would be at home. For stays of over a week, we can arrange a mid-stay clean at a time that suits them. We'll sort that out after booking.</li>
+        <li><strong>Anything else you need:</strong> if you need any details from us, like certificates or documentation, <a href="/enquire">get in touch</a> and we'll send them over.</li>
+      </ul>
+      <div class="btns"><a class="btn btn--fill" href="/enquire">Enquire</a><a class="btn" href="#pricing">See prices</a></div>
+    </div>
+    <div class="media">
+      <div class="card-torn tilt-r"><div><?= content_image('/images/photos/dining-table.jpg', 'The dining table set for two', '', '4/5') ?><span class="hand">Ready when they are</span></div></div>
+    </div>
+  </div>
+</section>
+
+<?php /* Linked to as /longer-stays#pricing. The same prices are in content/faqs.md ("How much does it cost?"): change both. */ ?>
+<section class="band torn torn--flip" id="pricing">
+  <div class="wrap stack" style="gap: 2.5rem">
+    <div class="stack centre">
+      <p class="label">Transparent pricing</p>
+      <h2>3-night short breaks <em>from £275</em></h2>
+      <p>It's always cheaper to book direct: save around 15%. Here's what you can expect to pay.</p>
+    </div>
+    <div class="features">
+      <div><?= svg('illustrations/10-seedling.svg', 'illustration') ?><h3 class="hand">3 nights or more</h3><p>Short breaks from £275, starting and ending on any day.</p></div>
+      <div><?= svg('illustrations/05-sprig-leafy.svg', 'illustration') ?><h3 class="hand">Save 15%</h3><p>Stay 5 nights or more. Weekly stays from £545.</p></div>
+      <div><?= svg('illustrations/01-oak-leaf.svg', 'illustration') ?><h3 class="hand">Save 25%</h3><p>Stay 21 nights or more. Three-week stays from £1,445, 30-night stays from £2,000.</p></div>
+    </div>
+    <p class="centre-text">Longer than that? <a href="/enquire">Get in touch</a> and we'll agree a rate.</p>
+  </div>
+</section>
+
+<section class="band torn" style="--band: var(--primary-light)">
   <div class="wrap overlap">
     <div class="card-torn tilt-l"><div><?= content_image('/images/photos/gosforth.jpg', "The front door at Winter's Nook", '', '4/5') ?><span class="hand">Gosforth life</span></div></div>
     <div class="stack">

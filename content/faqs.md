@@ -66,9 +66,19 @@ Yes. The bedroom has a generous run of built-in wardrobes, so there's plenty of 
 
 ## Longer stays
 
-### Do you offer discounts for longer stays?
-show on: home, long, enquire
-Yes. Stays of two weeks or more are 10% off, and monthly stays are 15% off. [Tell us your dates](/enquire) and we'll come back with our best rate. Booking direct is also around 15% cheaper than using a platform such as Airbnb or Booking.com.
+### How much does it cost?
+show on: home, enquire
+It's always cheaper to book direct: save around 15% compared with using a platform. 3-night short breaks start from £275.
+
+- Stay 5 nights or more and save 15% (weekly stays from £545)
+- Stay 21 nights or more and save 25% (three-week stays from £1,445, 30-night stays from £2,000)
+- Longer than that? [Get in touch](/enquire) and we'll agree a rate.
+
+There's more on our [Longer Stays page](/longer-stays#pricing).
+
+### Is there a minimum stay?
+show on: long, enquire
+Yes, 3 nights. Stays can start and end on any day of the week.
 
 ### Who usually stays?
 show on: long
