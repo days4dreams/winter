@@ -17,7 +17,7 @@ require __DIR__ . '/includes/head.php';
   <div class="wrap stack">
     <h1>A place to come <em>home to</em> in Gosforth</h1>
     <p>A one-bedroom flat for longer stays, a few miles from central Newcastle, with the Metro, buses and a bustling High Street a short walk away.</p>
-    <div class="btns"><a class="btn btn--fill" href="/longer-stays">Longer stays</a><a class="btn btn--light" href="<?= e($site['booking_url']) ?>"<?= link_attrs($site['booking_url']) ?>>Enquire</a></div>
+    <div class="btns"><a class="btn btn--fill" href="/the-flat">See the flat</a><a class="btn btn--light" href="<?= e($site['booking_url']) ?>"<?= link_attrs($site['booking_url']) ?>>Enquire</a></div>
   </div>
 </section>
 
