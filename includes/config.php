@@ -62,7 +62,7 @@ $site = [
     // 'link_words' are the words in 'text' that become the link.
     'announcement' => [
         'text'       => 'Staying a week or more? See long-stay rates',
-        'link'       => '/enquire',
+        'link'       => '/longer-stays#pricing',
         'link_words' => 'See long-stay rates',
     ],
 
